@@ -2,11 +2,12 @@ package bean;
 
 import enums.UserRole;
 
-public class UserBean {
+public class UserBean{
+
+    private Integer userId = 1;
     private String username;
     private String password;
     private Double balance;
-
 
     private UserRole role;
 
@@ -52,4 +53,13 @@ public class UserBean {
     public void setRole(UserRole role) {
         this.role = role;
     }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
 }
