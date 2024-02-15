@@ -17,7 +17,7 @@ public class DB {
 
     static {
         UserBean userBean = new UserBean();
-        userBean.setId(userID++);
+        userBean.setUserId(userID++);
         userBean.setUsername("admin");
         userBean.setPassword("admin");
         userBean.setRole(UserRole.ADMIN);
@@ -36,7 +36,7 @@ public class DB {
         if(checkUserExistByLogin(userBean.getUsername())) {
             return null;
         }
-        userBean.setId(userID++);
+        userBean.setUserId(userID++);
         userBean.setRole(UserRole.USER);
         USER_BEANS.add(userBean);
         userBean.setBalance(1000d);
