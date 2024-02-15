@@ -1,7 +1,7 @@
 # Car Dealership Management System
 
 <div align="center">
-  <img src="https://your-image-url.com" alt="Car Dealership Management System Logo">
+  <img src="[https://your-image-url.com](https://m.atcdn.co.uk/retailer/media/w768/8a42c0a07e9c504a017ed9cf90080c08.jpg)" alt="Car Dealership Management System Logo">
 </div>
 
 <p align="center">A simple Car Dealership Management System implemented in Java.</p>
